@@ -19,3 +19,12 @@ a.out を 2 回目に実行すると以下のようになる:
 buf.st_nlink = 2
 link failed
 >
+
+Windows でこれを実行すると 1 回目に
+
+> ./a.out
+buf.st_nlink = 1
+link failed
+>
+
+のようになってしまう.
